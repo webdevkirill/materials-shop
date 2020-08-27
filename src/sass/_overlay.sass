@@ -1,0 +1,287 @@
+.popup-close
+	position: fixed
+	right: 4px
+	top: -7px
+	color: #fff
+	cursor: pointer
+	font-size: 36px
+
+.treatment
+	width: 600px
+	height: 400px
+	position: relative
+	top: 20px
+	left: 50%
+	transform: translateX(-50%)
+	&-title
+		padding-left: 50px
+		padding-right: 50px
+		padding-top: 30px
+		padding-bottom: 30px
+		text-align: center
+		font-size: 30px
+		color: #fff
+		background-color: #00d1f9
+		font-family: 'Proxima Nova Regular'
+	&-wrap
+		position: fixed
+		display: none
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: 1002
+		background-color: rgba(0,0,0,0.4)
+	&-text
+		overflow-y: auto
+		height: 303px
+		font-family: 'Proxima Nova Regular'
+		padding-left: 20px
+		padding-right: 20px
+		background-color: #fff
+		padding-top: 20px
+		padding-bottom: 20px
+		&__title
+			font-size: 24px
+			text-align: center
+			margin-bottom: 10px
+		&__descr
+			font-size: 18px
+			margin-bottom: 15px
+
+.overlay
+	width: 600px
+	position: relative
+	top: 20px
+	left: 50%
+	transform: translateX(-50%)
+	&-title
+		padding-left: 50px
+		padding-right: 50px
+		padding-top: 30px
+		padding-bottom: 30px
+		text-align: center
+		font-size: 30px
+		color: #fff
+		background-color: #00d1f9
+		font-family: 'Proxima Nova Regular'
+	&-wrap
+		position: fixed
+		display: none
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: 1001
+		background-color: rgba(0,0,0,0.4)
+	&-form
+		background-color: #fff
+		padding-top: 20px
+		padding-bottom: 20px
+		text-align: center
+		&__title
+			text-align: center
+			color: #000000
+			font-family: 'Proxima Nova Regular'
+			font-size: 18px
+			margin-bottom: 30px
+		input
+			border: 1px solid #e8e8e8
+			background-color: #ffffff
+			width: 400px
+			border: 1px solid #e8e8e8
+			display: block
+			&:focus
+				border: 1px solid #23bac1
+			
+		&__name
+			padding-top: 15px
+			padding-bottom: 15px
+			margin: 0 auto
+			margin-bottom: 10px
+			text-align: center
+			color: #7c7c7c
+			font-family: 'Proxima Nova Light'
+			font-size: 13px
+		&__tel
+			padding-top: 15px
+			padding-bottom: 15px
+			color: #7c7c7c
+			text-align: center
+			font-family: 'Proxima Nova Light'
+			font-size: 13px
+			margin: 0 auto
+			margin-bottom: 10px
+		&__materials
+			text-align: center
+			display: block
+			width: 400px
+			margin: 0 auto
+			margin-bottom: 20px
+			padding: 15px 30px
+			height: 90px
+			color: #7c7c7c
+			border: 1px solid #e8e8e8
+			font-family: 'Proxima Nova Light'
+			font-size: 13px
+		&__button
+			margin: 0 auto
+			margin-bottom: 15px
+			padding: 22px 37px
+			box-shadow: 0 6px 18px rgba(28, 167, 173, 0.32)
+			background-color: #23bac1
+			color: #ffffff
+			font-family: 'Proxima Nova Bold'
+			font-size: 13px
+			text-transform: uppercase
+			border: 1px solid #23bac1
+			&:hover
+				color: #23bac1
+				background-color: transparent
+				border: 1px solid #23bac1
+		&__small
+			display: block
+			color: #7c7c7c
+			font-family: 'Proxima Nova Light'
+			font-size: 11px
+			a
+				color: #7c7c7c
+				text-decoration: underline
+				&:visited	
+					color: #7c7c7c
+				&:hover
+					color: #23bac1
+
+.question-overlay
+	width: 600px
+	position: relative
+	top: 20px
+	left: 50%
+	transform: translateX(-50%)
+	&-title
+		padding-left: 50px
+		padding-right: 50px
+		padding-top: 30px
+		padding-bottom: 30px
+		text-align: center
+		font-size: 30px
+		color: #fff
+		background-color: #00d1f9
+		font-family: 'Proxima Nova Regular'
+	&-wrap
+		position: fixed
+		display: none
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: 1001
+		background-color: rgba(0,0,0,0.4)
+	&-form
+		background-color: #fff
+		padding-top: 20px
+		padding-bottom: 20px
+		text-align: center
+		&__title
+			text-align: center
+			color: #000000
+			font-family: 'Proxima Nova Regular'
+			font-size: 18px
+			margin-bottom: 30px
+		input
+			border: 1px solid #e8e8e8
+			background-color: #ffffff
+			width: 400px
+			border: 1px solid #e8e8e8
+			display: block
+			&:focus
+				border: 1px solid #23bac1
+			
+		&__name
+			padding-top: 15px
+			padding-bottom: 15px
+			margin: 0 auto
+			margin-bottom: 10px
+			text-align: center
+			color: #7c7c7c
+			font-family: 'Proxima Nova Light'
+			font-size: 13px
+		&__tel
+			padding-top: 15px
+			padding-bottom: 15px
+			color: #7c7c7c
+			text-align: center
+			font-family: 'Proxima Nova Light'
+			font-size: 13px
+			margin: 0 auto
+			margin-bottom: 10px
+		&__materials
+			text-align: center
+			display: block
+			width: 400px
+			margin: 0 auto
+			margin-bottom: 20px
+			padding: 15px 30px
+			height: 90px
+			color: #7c7c7c
+			border: 1px solid #e8e8e8
+			font-family: 'Proxima Nova Light'
+			font-size: 13px
+		&__button
+			margin: 0 auto
+			margin-bottom: 15px
+			padding: 22px 37px
+			box-shadow: 0 6px 18px rgba(28, 167, 173, 0.32)
+			background-color: #23bac1
+			color: #ffffff
+			font-family: 'Proxima Nova Bold'
+			font-size: 13px
+			text-transform: uppercase
+			border: 1px solid #23bac1
+			&:hover
+				color: #23bac1
+				background-color: transparent
+				border: 1px solid #23bac1
+		&__small
+			display: block
+			color: #7c7c7c
+			font-family: 'Proxima Nova Light'
+			font-size: 11px
+			a
+				color: #7c7c7c
+				text-decoration: underline
+				&:visited	
+					color: #7c7c7c
+				&:hover
+					color: #23bac1
+.thanks
+	width: 600px
+	position: relative
+	top: 20px
+	overflow-y: auto
+	left: 50%
+	transform: translateX(-50%)
+	&-title
+		font-family: 'Proxima Nova Regular'
+		padding-left: 50px
+		padding-right: 50px
+		padding-top: 30px
+		padding-bottom: 30px
+		text-align: center
+		font-size: 30px
+		color: #fff
+		background-color: #00d1f9
+	&-wrap
+		position: fixed
+		display: none
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: 1001
+		background-color: rgba(0,0,0,0.4)
+	&-text
+		font-family: 'Proxima Nova Regular'
+		text-align: center
+		font-size: 24px
+		padding-left: 20px
+		padding-right: 20px
+		background-color: #fff
+		padding-top: 20px
+		padding-bottom: 20px

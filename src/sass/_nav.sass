@@ -1,0 +1,49 @@
+.nav
+	&-container
+		display: flex
+		justify-content: space-between
+		padding-left: 24px
+		padding-right: 24px
+		padding-top: 15px
+		padding-bottom: 15px
+		border-top: 1px solid rgba(#fff, 0.2)
+		border-bottom: 1px solid rgba(#fff, 0.2)
+		
+	&-link
+		a
+			color: #fff
+			font-family: "Proxima Nova Regular"
+			font-size: 13px
+			text-transform: uppercase
+			text-decoration: none
+			&:visited
+				color: #fff
+			&:hover
+				color: #23bac1
+
+.nav
+
+	&-hide
+		display: none
+		position: fixed
+		top: 0
+		left: 0
+		z-index: 999
+		height: 100vh
+		width: 100vw
+		padding-top: 100px
+		background-color: rgba(#000, 0.8)
+		&-link
+			margin-bottom: 20px
+			a
+				color: #fff
+				font-family: "Proxima Nova Regular"
+				font-size: 20px
+				text-transform: uppercase
+				text-decoration: none
+				&:visited
+					color: #fff
+		&-container
+			display: flex
+			flex-direction: column
+			text-align: center
